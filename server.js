@@ -13,6 +13,9 @@ var root = {
 };
 // Create an express server and a GraphQL endpoint
 var app = express();
+app.get('/', function (req, res) {
+    res.send('Go to localhost:4000/graphql to see graphql :)')
+  })
 app.use('/graphql', express_graphql({
     schema: schema,
     rootValue: root,
