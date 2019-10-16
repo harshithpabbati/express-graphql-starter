@@ -1,7 +1,7 @@
 <h1 align="center"><strong>GraphQL Server Boilerplate for Express JS</strong></h1>
 
 ![](https://imgur.com/lIi4YrZ.png)
- - **Simple Hello World example:** Where it either returns `Hello <name>!` or `Hello World!` if no name argument is provided.
+ 
   
 ## Getting started
 
